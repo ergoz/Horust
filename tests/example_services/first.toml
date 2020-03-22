@@ -1,7 +1,0 @@
-name = "my-first-service"
-command = "/bigger/first.sh first!"
-working-directory = "/tmp/"
-start-delay = "2s"
-[Restart]
-strategy = "never"
-#restart-backoff = "10s"

@@ -1,8 +1,0 @@
-name = "second-service"
-command = "/bigger/failing.sh second"
-working-directory = "/tmp/"
-start-after = ["my-first-service"]
-start-delay = "2s"
-[Restart]
-strategy = "always"
-#restart-backoff = "10s"
